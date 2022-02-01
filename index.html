@@ -1,0 +1,142 @@
+<div class="grid-layout">
+  <header>
+    <h1>Pet Adoption Application</h1>
+  </header>
+  
+  <main class="layout">
+    <form action="#" target="_blank" class="flex flex-col">
+ 
+      <!-- Box 1 -->
+      <div class="boxes">
+      <fieldset class="flex flex-col">
+        <legend>Contact Info</legend>
+        
+        <label for="name" class="input-title">Full Name</label>
+        <input type="text" name="name" id="name" maxlength="20" placeholder="required" required>   
+        
+        <label for="email" class="input-title">Email</label>
+        
+        <input type="email" id="email" name="email" placeholder="required" required>
+    
+        <label for="phone" class="input-title">Phone Number</label>
+        
+        <input type="cell" name="cell" id="cell" placeholder="required">
+        
+        <label for="time-to-call" class="input-title">Best Time to Call</label>
+        <input type="time-to-call"name="time-to-call" id="time-to-call"placeholder="required">
+        
+        <label for="address" class="input-title">Address</label>
+        <input type="address" placeholder="required">       
+      </fieldset>
+      </div>
+
+      <!-- box 2 -->
+      <div class="boxes">
+      <fieldset class="flex flex-col">
+        <legend>Home & Lifestyle</legend>
+        
+        <label for="family-members" class="input-title">How Many Family Members?</label>
+        <input type="text" name="members" id="members" maxlength="20" placeholder="required">   
+        
+        <label for="adults" class="input-title">How Many Adults in the Home?</label>
+        
+        <input type="text" id="adults" name="adults" placeholder="required">
+    
+        <label for="children" class="input-title">How Many Children in the Home?</label>
+        
+        <input type="text" name="children" id="children" placeholder="required">
+        
+        <label for="home-type" class="input-title">What Type of Home? Condo, Apartment, Single Family?</label>
+        <input type="text" name="home-type" id="home-typel" placeholder="required">
+        
+        <label for="backyard" class="input-title">Do You Have a Backyard?</label>
+        <input type="backyard" placeholder="required">
+        
+        <label for="allergies" class="input-title">Does Anyone in the Home Have Allergies?</label>
+        <input type="text"name="allergies" id="allergies" placeholder="required">
+        
+        <label for="time" class="input-title">For How Long Will Your Pet be Left Alone at a Time?</label>
+        <input type="text" name="time" id="time" placeholder="required">
+        
+      </fieldset>
+      </div>
+      
+      <!-- box 3 -->
+      <div class="boxes">
+      <fieldset class="flex flex-col">
+        <legend>Activity Level</legend>
+        
+        <!-- Checkboxes -->
+        <fieldset name="activity-level" class="flex flex-row wrap no-border">
+          <legend class="input-title">Rank the Energy Level in your Home</legend>
+          
+          <div>
+            <label for="high">High</label>
+            <input type="checkbox" value="high" id="high" name="activity-level">         
+          </div>
+          
+          <div>
+            <label for="medium">Medium</label>
+            <input type="checkbox" value="medium" id="medium" name="activity-level">         
+          </div>
+          
+          <div>
+            <label for="low">Low</label>
+            <input type="checkbox" value="low" id="low" name="activity-level"> 
+          </div>
+        </fieldset>
+          
+        <fieldset name="activity-level" class="flex flex-row wrap no-border">
+          
+          <legend class="input-title">How Often Are You Able to Exercise With Your Pet?</legend>
+          
+          <div>
+            <label for="3">3x Daily</label>
+            <input type="checkbox" value="3" id="3" name="activity-level">         
+          </div>
+          
+          <div>
+            <label for="2">2x Daily</label>
+            <input type="checkbox" value="2" id="2" name="activity-level">         
+          </div>
+          
+          <div>
+            <label for="daily">Daily</label>
+            <input type="checkbox" value="daily" id="daily" name="activity-level"> 
+          </div>
+        </fieldset>
+        </div>
+        
+        <!-- Dropdown -->
+         <div class="boxes">
+      <fieldset class="flex flex-col">
+        <label for="size" class="input-title">Size Preference</label>
+        <select name="size" id="size" class="no-border pointer">
+          <option selected="Select a Weight Category" disabled="disabled">Select a Weight Category</option>
+          <option value="xtral">50+ lbs</option> 
+          <option value="l">35-50 lbs</option>
+          <option value="m">20-35 lbs</option>
+          <option value="s">10-20 lbs</option>
+          <option value="teacup">2-10 lbs</option>
+        </select>
+           </fieldset>
+        </div>
+    
+
+        <!-- summary box -->
+         <div class="boxes">
+      <fieldset class="flex flex-col">
+        <label for="summary">Summarize What You Are Looking For in a Pet</label>
+        <textarea name="summary" id="summary" rows="6" cols="20" placeholder="required"></textarea>
+      </fieldset>
+        </div>
+      
+      <button type="submit" class="input-title pointer no-border">Submit Application</button>
+    </form>
+  </main>
+  
+  <!--- footer --->
+  
+  <footer>
+    <p>&copy; Tori Taylor 2022</p>
+  </footer>

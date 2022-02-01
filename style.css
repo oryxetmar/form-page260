@@ -1,0 +1,83 @@
+
+/* fonts */
+h1, .input-title{
+  font-family: 'Dongle', sans-serif;
+}
+label, legend {
+  font-family: 'Dongle', sans-serif;
+  font-szie: 2rem;
+}
+.grid-layout {
+  display: grid;
+  justify-items: center;
+  background-image: url("https://thumbs.dreamstime.com/b/dog-bones-paws-pattern-seamless-christmas-background-year-dog-dog-bone-pattern-seamless-background-100319753.jpg");
+  gap: 1rem;
+}
+
+.boxes {
+  background-color: white;
+  font-size: 2rem;
+}
+
+header {
+  text-align: center;
+  background-color:  #66c5d5; opacity: 0.85; filter: alpha(opacity=50); 
+  color: whitesmoke;
+  width: 100%;
+  font-size: 2rem;
+  height: 8rem;
+}
+
+footer {
+   text-align: center;
+  background-color:  #66c5d5; opacity: 0.85; filter: alpha(opacity=50);
+  color: whitesmoke;
+  width: 100%;
+  font-size: 1.25rem;
+  height: 4rem;
+}
+
+form {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 2rem;
+  font-family: 'Dongle', sans-serif;
+}
+
+button {
+  padding: 5px 0;
+  color:  white ;
+  background-color:  #66c5d5; opacity: 0.85; filter: alpha(opacity=50);
+}
+button:hover {
+  background-color:   #309492 ;
+}
+/* Utilities */
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+/* change the look of the cursor when hovering */
+.pointer {
+  cursor: pointer;
+}
+
+/* remove border */
+.no-border {
+  border: none;
+}
+
+input {
+  font-size: 1rem;
+}
+
+.input-title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
